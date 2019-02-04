@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="star.lut.com.chatdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Base.BaseApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".appModules.login.view.LoginActivity" />
+        <activity android:name=".appModules.mother.MotherActivity" />
+        <activity
+            android:name=".appModules.chatDetails.view.ChatDetailsActivity"
+            android:label="@string/title_activity_chat_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".appModules.fullScreenPicture.PictureActivty" />
+        <activity android:name=".appModules.settings.SettingsActivity" />
+        <activity android:name=".appModules.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".appModules.profile.view.ProfileActivity" />
+        <activity android:name=".appModules.profile.view.ProfileEditActivity" />
+
+        <service android:name=".firebaseServices.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".receiver.AlarmReceiver"
+            android:enabled="true"/>
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

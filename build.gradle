@@ -1,0 +1,71 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.google.gms:google-services:4.0.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    minSdkVersion = 19
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+    supportLibraryVersion = '27.1.1'
+    consLayoutVersion = '1.1.2'
+
+    retrofitVersion = '2.4.0'
+
+    rxAndroidVersion = '2.0.2'
+    rxJava2Version = '2.1.13'
+
+    butterKnifeVersion = '8.8.1'
+
+    timberVersion = '4.7.0'
+
+    glideVersion = '4.7.1'
+    circleImageVersion = '2.2.0'
+
+    calligraphyVersion = '3.0.0'
+    viewPumpVersion = '1.0.0'
+
+    bottomNavigationViewExVersion = '1.2.4'
+
+    //db
+    greenDaoVersion = '3.2.2'
+
+    googleMapsVersion = '15.0.1'
+
+    bottomNaviagtionViewEx = '1.2.4'
+
+    gsonVersion = '2.8.5'
+
+    picassoVersion = '2.71828'
+
+    tedBottomPickerVersion = '1.2.6'
+
+    glideVersion = '4.8.0'
+
+    firebaseMessageVersion = '17.3.4'
+
+    firebaseCoreVersion = '16.0.5'
+}

@@ -1,0 +1,34 @@
+{
+ "chat_list" : [
+     {
+     "thread_id" : 1,
+     "thread_name" : "Mr. Asd Das",
+     "thread_last_message" : "adfadfadfaadf ads fasdf adf s",
+     "thread_last_message_time" : "Today 18:55"
+     },
+     {
+     "thread_id" : 2,
+     "thread_name" : "Mr. Sssr Fssfa",
+     "thread_last_message" : "DF DS dafa dfa ad fad fadf adfladjfalsf",
+     "thread_last_message_time" : "Today 01:43"
+     },
+     {
+     "thread_id" : 3,
+     "thread_name" : "Mr. Ssrg Gdafa",
+     "thread_last_message" : "adlkf dfl;jdkfasoijfadklf asdfasd;ofja;dfjasdf asdofjasdlfasdfasd",
+     "thread_last_message_time" : "Yesterday 17:33"
+     },
+     {
+     "thread_id" : 4,
+     "thread_name" : "Fsrgfa Adadf",
+     "thread_last_message" : "ajdkfadsj adlkfajdsfasdifw fadlkfjawief adslfajswofjaldkf sldfj asdlkfjalsdkfjalsdfkjasldfjals;dfja;sdfjas;dflkjasdl fasdlf jasd",
+     "thread_last_message_time" : "21/09/2018"
+     },
+     {
+     "thread_id" : 5,
+     "thread_name" : "Sdafa Fsdfd",
+     "thread_last_message" : "adfkas fa;wlefaj dfajsdfaskdfjaskdfjasdalfaldhfaskdfhaw adajdfa jasdkf asdkfasjdfasfjadkjf asdifa",
+     "thread_last_message_time" : "11/03/2015"
+     }
+ ]
+}

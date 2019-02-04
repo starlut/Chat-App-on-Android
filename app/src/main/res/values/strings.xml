@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chat Demo</string>
+    <string name="title_activity_chat_details">ChatDetailsActivity</string>
+
+    <string name="firebase_key">AIzaSyCNwrPciRICSijUHotbgwPu0i-FuMSMXOk</string>
+    <string name="notification_channel">chatdemo_notification_channel</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="fullname">Fullname: </string>
+    <string name="position">Position: </string>
+
+    <string name="rb_always">Always</string>
+    <string name="rb_office_time">Office time</string>
+    <string name="rb_no_notification">No notifications</string>
+    <string name="tv_notification_time">How often do you want to be notified about incoming messages? :</string>
+    <string name="btn_apply_settings">Apply Settings</string>
+</resources>

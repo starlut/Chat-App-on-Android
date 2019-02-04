@@ -1,0 +1,68 @@
+{
+ "chat_details_list" : [
+     {
+       "thread_id": 0,
+       "content_type" : "message",
+       "content" : "hello world, this is sample message from others",
+       "title" : null,
+       "own" : false,
+       "time" : "1:22pm"
+     },
+     {
+       "thread_id": 1,
+       "content_type" : "message",
+       "content" : "hello world, this is sample message from self",
+       "title" : null,
+       "own" : true,
+       "time" : "1:32pm"
+     },
+     {
+       "thread_id": 2,
+       "content_type" : "picture",
+       "content" : "https://cdn.newsapi.com.au/image/v1/9fdbf585d17c95f7a31ccacdb6466af9",
+       "title" : "Black Hole 1",
+       "own" : false,
+       "time" : "1:42pm"
+     },
+     {
+       "thread_id": 3,
+       "content_type" : "picture",
+       "content" : "https://cdn.newsapi.com.au/image/v1/9fdbf585d17c95f7a31ccacdb6466af9",
+       "title" : "Black Hole 2",
+       "own" : true,
+       "time" : "3:22pm"
+     },
+     {
+       "thread_id": 4,
+       "content_type" : "others",
+       "content" : "http://sandbox2013.kwizcom.com/sites/demo-sharepoint-quick-previewer/Shared%20Documents/Sample%20large%20docx.docx",
+       "title" : "Sample.docx",
+       "own" : false,
+       "time" : "4:22pm"
+     },
+     {
+       "thread_id": 5,
+       "content_type" : "others",
+       "content" : "http://sandbox2013.kwizcom.com/sites/demo-sharepoint-quick-previewer/Shared%20Documents/Sample%20large%20docx.docx",
+       "title" : "Sample doc.docx",
+       "own" : true,
+       "time" : "5:22pm"
+     },
+     {
+       "thread_id": 6,
+       "content_type" : "others",
+       "content" : "https://drive.google.com/open?id=1dVlMollfXHdd_qp_FvVroO_GeUuiiPid",
+       "title" : "SRS New Library.apk",
+       "own" : false,
+       "time" : "6:22pm"
+     },
+     {
+       "thread_id": 7,
+       "content_type" : "others",
+       "content" : "https://drive.google.com/open?id=1dVlMollfXHdd_qp_FvVroO_GeUuiiPid",
+       "title" : "Srs NEW Library.apk",
+       "own" : true,
+       "time" : "7:22pm"
+     }
+ ]
+}
